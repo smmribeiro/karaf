@@ -46,4 +46,30 @@
         </fileSet>
     </fileSets>
 
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory/>
+            <includes/>
+            <excludes/>
+            <fileMode/>
+            <directoryMode/>
+            <useStrictFiltering/>
+            <outputFileNameMapping/>
+            <unpack/>
+            <unpackOptions>
+                <includes/>
+                <excludes/>
+                <filtered/>
+                <lineEnding/>
+                <useDefaultExcludes/>
+                <encoding/>
+            </unpackOptions>
+            <scope/>
+            <useProjectArtifact/>
+            <useProjectAttachments/>
+            <useTransitiveDependencies/>
+            <useTransitiveFiltering/>
+        </dependencySet>
+    </dependencySets>
+
 </assembly>
