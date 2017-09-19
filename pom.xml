@@ -2376,7 +2376,7 @@
     <repository>
       <id>pentaho.public.release.repo</id>
       <name>Pentaho Nexus 3rd Party Release Repo</name>
-      <url>http://nexus.pentaho.org/content/repositories/public-3rd-party-release</url>
+      <url>${pentaho.public.release.repo}</url>
     </repository>
   </distributionManagement>    
   
