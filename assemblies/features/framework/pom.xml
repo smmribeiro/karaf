@@ -55,7 +55,7 @@
             <scope>runtime</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.karaf.jaas</groupId>
+            <groupId>org.pentaho.karaf.jaas</groupId>
             <artifactId>org.apache.karaf.jaas.boot</artifactId>
             <scope>runtime</scope>
         </dependency>
@@ -290,7 +290,7 @@
                                     <destFileName>karaf-client.jar</destFileName>
                                 </artifactItem>
                                 <artifactItem>
-                                    <groupId>org.apache.karaf.jaas</groupId>
+                                    <groupId>org.pentaho.karaf.jaas</groupId>
                                     <artifactId>org.apache.karaf.jaas.boot</artifactId>
                                     <outputDirectory>target/classes/resources/lib</outputDirectory>
                                     <destFileName>karaf-jaas-boot.jar</destFileName>

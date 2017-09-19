@@ -659,27 +659,27 @@
             </dependency>
 
             <dependency>
-                <groupId>org.apache.karaf.jaas</groupId>
+                <groupId>org.pentaho.karaf.jaas</groupId>
                 <artifactId>org.apache.karaf.jaas.boot</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.jaas</groupId>
+                <groupId>org.pentaho.karaf.jaas</groupId>
                 <artifactId>org.apache.karaf.jaas.command</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.jaas</groupId>
+                <groupId>org.pentaho.karaf.jaas</groupId>
                 <artifactId>org.apache.karaf.jaas.config</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.jaas</groupId>
+                <groupId>org.pentaho.karaf.jaas</groupId>
                 <artifactId>org.apache.karaf.jaas.jasypt</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.jaas</groupId>
+                <groupId>org.pentaho.karaf.jaas</groupId>
                 <artifactId>org.apache.karaf.jaas.modules</artifactId>
                 <version>${project.version}</version>
             </dependency>
@@ -2371,4 +2371,13 @@
             </build>
         </profile>
     </profiles>
+    
+  <distributionManagement>
+    <repository>
+      <id>pentaho-nexus</id>
+      <name>Pentaho Nexus 3rd Party Release Repo</name>
+      <url>http://nexus.pentaho.org/content/repositories/private-3rd-party-release</url>
+    </repository>
+  </distributionManagement>    
+  
 </project>
