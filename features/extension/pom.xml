@@ -28,14 +28,33 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
+    <groupId>org.hitachivantara.karaf.features</groupId>
     <artifactId>org.apache.karaf.features.extension</artifactId>
+    <version>4.2.6-R1</version>
     <packaging>bundle</packaging>
-    <name>Apache Karaf :: Features :: Extension</name>
+    <name>Apache Karaf :: Features :: Extension (Hitachi patched version)</name>
     <description>This bundle is an extension bundle for the framework.</description>
 
     <properties>
+        <karaf.project.version>4.2.6</karaf.project.version>
+
         <appendedResourcesDirectory>${basedir}/../../etc/appended-resources</appendedResourcesDirectory>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.karaf</groupId>
+                <artifactId>org.apache.karaf.util</artifactId>
+                <version>${karaf.project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.karaf.jaas</groupId>
+                <artifactId>org.apache.karaf.jaas.boot</artifactId>
+                <version>${karaf.project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <dependency>
