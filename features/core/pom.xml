@@ -28,7 +28,8 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>org.apache.karaf.features.core</artifactId>
+    <groupId>org.hitachivantara.karaf.features</groupId>
+    <artifactId>org.hitachivantara.karaf.features.core</artifactId>
     <packaging>bundle</packaging>
     <name>Apache Karaf :: Features :: Core</name>
     <description>This bundle is the core implementation of the Karaf features support.</description>
