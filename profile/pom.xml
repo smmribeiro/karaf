@@ -28,8 +28,8 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>org.apache.karaf.profile</groupId>
-    <artifactId>org.apache.karaf.profile.core</artifactId>
+    <groupId>org.hitachivantara.karaf.profile</groupId>
+    <artifactId>org.hitachivantara.karaf.profile.core</artifactId>
     <packaging>bundle</packaging>
     <name>Apache Karaf :: Profile :: Core</name>
     <description>Profile Services and API</description>
@@ -94,8 +94,8 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
-            <artifactId>org.apache.karaf.features.core</artifactId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
+            <artifactId>org.hitachivantara.karaf.features.core</artifactId>
             <optional>true</optional>
         </dependency>
 

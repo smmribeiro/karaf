@@ -25,6 +25,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.ArrayList;
+import org.apache.karaf.features.internal.model.Conditional;
 
 import org.apache.felix.utils.version.VersionTable;
 import org.apache.karaf.features.FeaturePattern;
@@ -107,14 +109,39 @@ public class FeatureSelector {
             throw new IllegalStateException("Could not find matching feature for " + feature);
         }
         for (Feature f : set) {
-            if (features.add(f)) {
+            /*if (features.add(f)) {
                 for (Dependency dep : f.getFeature()) {
                     if (!dep.isBlacklisted()) {
                         addFeatures(dep.toString(), features, isMandatory(dep));
                     }
                 }
+            }*/ //commented on 4.2.6_R2
+
+            if( !features.add(f) ){
+                // already processed this feature
+                continue;
+            }
+
+            for (Dependency dep : getAllFeatures( f ) ) {
+                if (!dep.isBlacklisted()) {
+                    addFeatures(dep.toString(), features, isMandatory(dep));
+                }
             }
         }
+    }
+
+    /***
+     * Gets all features in a feature including the features defined inside conditionals
+     * @param feature
+     * @return
+     */
+    private List<Dependency> getAllFeatures( Feature feature ){
+        List<Dependency> innerFeatures = new ArrayList<>();
+        for( Conditional conditional : feature.getConditional() ) {
+            innerFeatures.addAll( conditional.getFeature() );
+        }
+        innerFeatures.addAll( feature.getFeature() );
+        return innerFeatures;
     }
 
     private boolean isMandatory(Dependency dep) {

@@ -291,6 +291,11 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.hitachivantara.karaf.features</groupId>
+                <artifactId>org.hitachivantara.karaf.features.core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.apache.karaf.features</groupId>
                 <artifactId>org.apache.karaf.features.core</artifactId>
                 <version>${project.version}</version>
@@ -305,6 +310,12 @@
             <dependency>
                 <groupId>org.apache.karaf.profile</groupId>
                 <artifactId>org.apache.karaf.profile.core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.hitachivantara.karaf.profile</groupId>
+                <artifactId>org.hitachivantara.karaf.profile.core</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
