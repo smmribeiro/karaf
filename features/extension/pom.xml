@@ -28,7 +28,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <groupId>org.hitachivantara.karaf.features</groupId>
-    <artifactId>org.apache.karaf.features.extension</artifactId>
+    <artifactId>org.hitachivantara.karaf.features.extension</artifactId>
     <version>4.2.15</version>
     <packaging>bundle</packaging>
     <name>Apache Karaf :: Features :: Extension (Hitachi patched version)</name>
