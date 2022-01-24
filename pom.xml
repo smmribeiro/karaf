@@ -150,7 +150,7 @@
     </developers>
 
     <properties>
-        <project.build.outputTimestamp>1712650974</project.build.outputTimestamp>        
+        <project.build.outputTimestamp>1712650974</project.build.outputTimestamp>
 
         <scm.connection>scm:git:https://gitbox.apache.org/repos/asf/karaf.git</scm.connection>
         <scm.developerConnection>scm:git:https://gitbox.apache.org/repos/asf/karaf.git</scm.developerConnection>
