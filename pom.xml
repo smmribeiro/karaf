@@ -173,7 +173,7 @@
         <camel.version>3.6.0</camel.version>
         <cglib.bundle.version>3.2.9_1</cglib.bundle.version>
         <cxf.version>3.5.5</cxf.version>
-        <jackson.version>2.14.1</jackson.version>
+        <jackson.version>2.14.2</jackson.version>
         <jna.version>5.14.0</jna.version>
         <jaxb-bom.version>2.3.8</jaxb-bom.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
@@ -355,6 +355,8 @@
         <javax.mail.version>1.4.7</javax.mail.version>
 
         <winsw.version>2.3.0</winsw.version>
+        <safeyaml.version>1.34.1</safeyaml.version>
+        <hv-jackson-dataformat.version>2.14.1</hv-jackson-dataformat.version>
 
         <osgi-component-annotations.version>1.4.0</osgi-component-annotations.version>
 
@@ -423,6 +425,32 @@
             <scope>test</scope>
             <version>${easymock.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.hitachivantara</groupId>
+            <artifactId>safeyaml</artifactId>
+            <version>${safeyaml.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hitachivantara</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+            <version>${hv-jackson-dataformat.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
