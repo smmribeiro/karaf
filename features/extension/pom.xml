@@ -29,14 +29,14 @@
     </parent>
     <groupId>org.hitachivantara.karaf.features</groupId>
     <artifactId>org.hitachivantara.karaf.features.extension</artifactId>
-    <version>4.2.15</version>
+    <version>4.4.6</version>
     <packaging>bundle</packaging>
     <name>Apache Karaf :: Features :: Extension (Hitachi patched version)</name>
     <description>This bundle is an extension bundle for the framework.</description>
 
     <properties>
         <appendedResourcesDirectory>${basedir}/../../etc/appended-resources</appendedResourcesDirectory>
-        <karaf.project.version>4.2.15</karaf.project.version>
+        <karaf.project.version>4.4.6</karaf.project.version>
     </properties>
 
     <dependencyManagement>
