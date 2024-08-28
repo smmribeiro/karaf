@@ -172,7 +172,7 @@
         <bouncycastle.version>1.77</bouncycastle.version>
         <camel.version>3.6.0</camel.version>
         <cglib.bundle.version>3.2.9_1</cglib.bundle.version>
-        <cxf.version>3.5.5</cxf.version>
+        <cxf.version>3.6.2</cxf.version>
         <jackson.version>2.14.2</jackson.version>
         <jna.version>5.14.0</jna.version>
         <jaxb-bom.version>2.3.8</jaxb-bom.version>
