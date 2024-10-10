@@ -434,6 +434,12 @@
             <groupId>org.hitachivantara</groupId>
             <artifactId>jackson-dataformat-yaml</artifactId>
             <version>${hv-jackson-dataformat.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.hitachivantara</groupId>
+                    <artifactId>safeyaml</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
