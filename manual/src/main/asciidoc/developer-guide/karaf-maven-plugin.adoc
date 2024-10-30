@@ -270,10 +270,10 @@ It reads the definition for the packages that are exported by the system bundle 
             </goals>
             <configuration>
               <descriptors>
-                <descriptor>mvn:org.apache.karaf.features/framework/4.0.4/xml/features</descriptor>
+                <descriptor>mvn:org.hitachivantara.karaf.features/framework/4.0.4/xml/features</descriptor>
                 <descriptor>file:${project.build.directory}/feature/feature.xml</descriptor>
               </descriptors>
-              <distribution>org.apache.karaf.features:framework</distribution>
+              <distribution>org.hitachivantara.karaf.features:framework</distribution>
               <javase>1.8</javase>
               <framework>
                 <feature>framework</feature>
@@ -343,7 +343,7 @@ into the `target/features-repo` directory.
             </goals>
             <configuration>
               <descriptors>
-                <descriptor>mvn:org.apache.karaf.features/standard/4.0.0/xml/features</descriptor>
+                <descriptor>mvn:org.hitachivantara.karaf.features/standard/4.0.0/xml/features</descriptor>
                 <descriptor>mvn:my.groupid/my.artifactid/1.0.0/xml/features</descriptor>
               </descriptors>
               <features>
@@ -447,12 +447,12 @@ The `karaf:assembly` goal creates a Karaf instance (assembly) filesystem using t
     ...
     <dependencies>
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>framework</artifactId>
             <type>kar</type>
         </dependency>
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>standard</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
@@ -501,12 +501,12 @@ It's also possible to generate a Karaf instance as a static distribution (kind o
 ----
     <dependencies>
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>static</artifactId>
             <type>kar</type>
         </dependency>
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>standard</artifactId>
             <classifier>features</classifier>
             <type>xml</type>

@@ -23,7 +23,7 @@
 
     <feature version="${project.version}" description="Karaf core feature" name="framework" hidden="true">
         <!-- persistent wiring extension -->
-        <bundle start-level="1">mvn:org.apache.karaf.features/org.apache.karaf.features.extension/${project.version}</bundle>
+        <bundle start-level="1">mvn:org.hitachivantara.karaf.features/org.hitachivantara.karaf.features.extension/${project.version}</bundle>
         <!-- mvn: url handlers -->
         <bundle start-level="5">mvn:org.ops4j.pax.url/pax-url-aether/${pax.url.version}</bundle>
         <!-- logging -->
@@ -45,13 +45,13 @@
         <!-- file install -->
         <bundle start-level="12">mvn:org.apache.felix/org.apache.felix.fileinstall/${felix.fileinstall.version}</bundle>
         <!-- features service -->
-        <bundle start-level="15">mvn:org.apache.karaf.features/org.apache.karaf.features.core/${project.version}</bundle>
+        <bundle start-level="15">mvn:org.hitachivantara.karaf.features/org.hitachivantara.karaf.features.core/${project.version}</bundle>
         <bundle dependency="true" start-level="30">mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.jaxb-api-2.2/${servicemix-spec.version}</bundle>
     </feature>
 
     <feature version="${project.version}" description="Karaf core feature" name="framework-logback" hidden="true">
         <!-- persistent wiring extension -->
-        <bundle start-level="1">mvn:org.apache.karaf.features/org.apache.karaf.features.extension/${project.version}</bundle>
+        <bundle start-level="1">mvn:org.hitachivantara.karaf.features/org.hitachivantara.karaf.features.extension/${project.version}</bundle>
         <!-- mvn: url handlers -->
         <bundle start-level="5">mvn:org.ops4j.pax.url/pax-url-aether/${pax.url.version}</bundle>
         <!-- logging -->
@@ -72,7 +72,7 @@
         <!-- file install -->
         <bundle start-level="12">mvn:org.apache.felix/org.apache.felix.fileinstall/${felix.fileinstall.version}</bundle>
         <!-- features service -->
-        <bundle start-level="15">mvn:org.apache.karaf.features/org.apache.karaf.features.core/${project.version}</bundle>
+        <bundle start-level="15">mvn:org.hitachivantara.karaf.features/org.hitachivantara.karaf.features.core/${project.version}</bundle>
     </feature>
 
 </features>

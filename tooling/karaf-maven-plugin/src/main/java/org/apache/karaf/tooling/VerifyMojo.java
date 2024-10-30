@@ -267,7 +267,7 @@ public class VerifyMojo extends MojoSupport {
             }
             descriptors = new LinkedHashSet<>();
             if (framework.contains("framework")) {
-                allDescriptors.add("mvn:org.apache.karaf.features/framework/" + getVersion("org.apache.karaf.features:framework") + "/xml/features");
+                allDescriptors.add("mvn:org.hitachivantara.karaf.features/framework/" + getVersion("org.hitachivantara.karaf.features:framework") + "/xml/features");
             }
             String filePrefix = null;
             if (System.getProperty("os.name").contains("Windows")) {
@@ -282,7 +282,7 @@ public class VerifyMojo extends MojoSupport {
         } else {
             allDescriptors.addAll(descriptors);
             if (framework != null && framework.contains("framework")) {
-                allDescriptors.add("mvn:org.apache.karaf.features/framework/" + getVersion("org.apache.karaf.features:framework") + "/xml/features");
+                allDescriptors.add("mvn:org.hitachivantara.karaf.features/framework/" + getVersion("org.hitachivantara.karaf.features:framework") + "/xml/features");
             }
         }
 

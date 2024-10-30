@@ -161,6 +161,6 @@
         <bundle dependency='true'>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-codec/1.3_3</bundle>
         <bundle dependency='true'>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-lang/2.4_4</bundle>
         <bundle dependency='true'>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.jasypt/1.7_1</bundle>
-        <bundle>mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.jasypt/2.2.0</bundle>
+        <bundle>mvn:org.hitachivantara.karaf.jaas/org.hitachivantara.karaf.jaas.jasypt/2.2.0</bundle>
     </feature>
 </features>

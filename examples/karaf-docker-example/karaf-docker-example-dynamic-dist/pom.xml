@@ -46,13 +46,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>framework</artifactId>
             <type>kar</type>
         </dependency>
 
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>framework</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
@@ -60,7 +60,7 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>standard</artifactId>
             <classifier>features</classifier>
             <type>xml</type>

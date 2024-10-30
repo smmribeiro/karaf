@@ -28,7 +28,8 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>org.apache.karaf.jaas.modules</artifactId>
+    <groupId>org.hitachivantara.karaf.jaas</groupId>
+    <artifactId>org.hitachivantara.karaf.jaas.modules</artifactId>
     <packaging>bundle</packaging>
     <name>Apache Karaf :: JAAS :: Modules</name>
     <description>This bundle provides JAAS modules which can be used in Karaf (LDAP, JDBC, etc).</description>
@@ -40,7 +41,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.karaf</groupId>
+                <groupId>org.hitachivantara.karaf</groupId>
                 <artifactId>karaf-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>

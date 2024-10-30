@@ -174,8 +174,8 @@
             </dependency>
 
             <dependency>
-                <groupId>org.apache.karaf.bundle</groupId>
-                <artifactId>org.apache.karaf.bundle.core</artifactId>
+                <groupId>org.hitachivantara.karaf.bundle</groupId>
+                <artifactId>org.hitachivantara.karaf.bundle.core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -258,8 +258,8 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.deployer</groupId>
-                <artifactId>org.apache.karaf.deployer.kar</artifactId>
+                <groupId>org.hitachivantara.karaf.deployer</groupId>
+                <artifactId>org.hitachivantara.karaf.deployer.kar</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -269,8 +269,8 @@
             </dependency>
 
             <dependency>
-                <groupId>org.apache.karaf.kar</groupId>
-                <artifactId>org.apache.karaf.kar.core</artifactId>
+                <groupId>org.hitachivantara.karaf.kar</groupId>
+                <artifactId>org.hitachivantara.karaf.kar.core</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -302,15 +302,15 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.features</groupId>
-                <artifactId>org.apache.karaf.features.command</artifactId>
+                <groupId>org.hitachivantara.karaf.features</groupId>
+                <artifactId>org.hitachivantara.karaf.features.command</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
 
             <dependency>
-                <groupId>org.apache.karaf.profile</groupId>
-                <artifactId>org.apache.karaf.profile.core</artifactId>
+                <groupId>org.hitachivantara.karaf.profile</groupId>
+                <artifactId>org.hitachivantara.karaf.profile.core</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -326,8 +326,8 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.diagnostic</groupId>
-                <artifactId>org.apache.karaf.diagnostic.core</artifactId>
+                <groupId>org.hitachivantara.karaf.diagnostic</groupId>
+                <artifactId>org.hitachivantara.karaf.diagnostic.core</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -397,13 +397,13 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.jaas</groupId>
-                <artifactId>org.apache.karaf.jaas.jasypt</artifactId>
+                <groupId>org.hitachivantara.karaf.jaas</groupId>
+                <artifactId>org.hitachivantara.karaf.jaas.jasypt</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.jaas</groupId>
-                <artifactId>org.apache.karaf.jaas.spring-security-crypto</artifactId>
+                <groupId>org.hitachivantara.karaf.jaas</groupId>
+                <artifactId>org.hitachivantara.karaf.jaas.spring-security-crypto</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -523,7 +523,7 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.features</groupId>
+                <groupId>org.hitachivantara.karaf.features</groupId>
                 <artifactId>enterprise</artifactId>
                 <type>xml</type>
                 <classifier>features</classifier>
@@ -535,26 +535,26 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.features</groupId>
+                <groupId>org.hitachivantara.karaf.features</groupId>
                 <artifactId>framework</artifactId>
                 <type>kar</type>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.features</groupId>
+                <groupId>org.hitachivantara.karaf.features</groupId>
                 <artifactId>framework</artifactId>
                 <classifier>features</classifier>
                 <type>xml</type>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.features</groupId>
+                <groupId>org.hitachivantara.karaf.features</groupId>
                 <artifactId>static</artifactId>
                 <type>kar</type>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.features</groupId>
+                <groupId>org.hitachivantara.karaf.features</groupId>
                 <artifactId>specs</artifactId>
                 <type>xml</type>
                 <classifier>features</classifier>
@@ -568,7 +568,7 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.features</groupId>
+                <groupId>org.hitachivantara.karaf.features</groupId>
                 <artifactId>standard</artifactId>
                 <type>xml</type>
                 <classifier>features</classifier>

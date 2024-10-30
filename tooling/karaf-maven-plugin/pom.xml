@@ -48,7 +48,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.karaf</groupId>
+                <groupId>org.hitachivantara.karaf</groupId>
                 <artifactId>karaf-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
@@ -60,8 +60,8 @@
                 <version>${karaf.project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.jaas</groupId>
-                <artifactId>org.apache.karaf.jaas.modules</artifactId>
+                <groupId>org.hitachivantara.karaf.jaas</groupId>
+                <artifactId>org.hitachivantara.karaf.jaas.modules</artifactId>
                 <version>${karaf.project.version}</version>
             </dependency>
             <dependency>
@@ -106,13 +106,13 @@
                 <version>${karaf.project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.deployer</groupId>
-                <artifactId>org.apache.karaf.deployer.kar</artifactId>
+                <groupId>org.hitachivantara.karaf.deployer</groupId>
+                <artifactId>org.hitachivantara.karaf.deployer.kar</artifactId>
                 <version>${karaf.project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.karaf.kar</groupId>
-                <artifactId>org.apache.karaf.kar.core</artifactId>
+                <groupId>org.hitachivantara.karaf.kar</groupId>
+                <artifactId>org.hitachivantara.karaf.kar.core</artifactId>
                 <version>${karaf.project.version}</version>
             </dependency>
             <dependency>
@@ -308,12 +308,12 @@
             <artifactId>org.apache.karaf.deployer.features</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.karaf.deployer</groupId>
-            <artifactId>org.apache.karaf.deployer.kar</artifactId>
+            <groupId>org.hitachivantara.karaf.deployer</groupId>
+            <artifactId>org.hitachivantara.karaf.deployer.kar</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.karaf.kar</groupId>
-            <artifactId>org.apache.karaf.kar.core</artifactId>
+            <groupId>org.hitachivantara.karaf.kar</groupId>
+            <artifactId>org.hitachivantara.karaf.kar.core</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.karaf.shell</groupId>

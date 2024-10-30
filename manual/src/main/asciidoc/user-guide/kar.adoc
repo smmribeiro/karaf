@@ -173,7 +173,7 @@ The `feature:repo-list` command gives you the list of registered features reposi
 karaf@root()> feature:repo-list
 Repository                       | URL
 -------------------------------------------------------------------------------------------------------
-standard-4.4.0                   | mvn:org.apache.karaf.features/standard/4.4.0/xml/features
+standard-4.4.0                   | mvn:org.hitachivantara.karaf.features/standard/4.4.0/xml/features
 enterprise-4.4.0                 | mvn:org.apache.karaf.features/enterprise/4.4.0/xml/features
 spring-4.4.0                     | mvn:org.apache.karaf.features/spring/4.4.0/xml/features
 org.ops4j.pax.web-8.0.2          | mvn:org.ops4j.pax.web/pax-web-features/8.0.2/xml/features

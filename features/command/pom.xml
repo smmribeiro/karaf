@@ -28,7 +28,8 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>org.apache.karaf.features.command</artifactId>
+    <groupId>org.hitachivantara.karaf.features</groupId>
+    <artifactId>org.hitachivantara.karaf.features.command</artifactId>
     <packaging>bundle</packaging>
     <name>Apache Karaf :: Features :: Command</name>
     <description>This bundle provides the Karaf shell commands to manipulate features.</description>
@@ -40,7 +41,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.karaf</groupId>
+                <groupId>org.hitachivantara.karaf</groupId>
                 <artifactId>karaf-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>

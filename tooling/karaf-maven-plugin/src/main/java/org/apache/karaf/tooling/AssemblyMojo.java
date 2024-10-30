@@ -730,11 +730,13 @@ public class AssemblyMojo extends MojoSupport {
         for (Iterator<String> iterator = startupKars.iterator(); iterator.hasNext(); ) {
             String kar = iterator.next();
             if (kar.startsWith("mvn:org.apache.karaf.features/framework/")
-                    || kar.startsWith("mvn:org.apache.karaf.features/static/")) {
+                    || kar.startsWith("mvn:org.hitachivantara.karaf.features/static/")
+                    || kar.startsWith("mvn:org.hitachivantara.karaf.features/framework/")) {
                 hasStandardKarafFrameworkKar = true;
                 iterator.remove();
                 if (framework == null) {
-                    framework = kar.startsWith("mvn:org.apache.karaf.features/framework/")
+                    framework = kar.startsWith("mvn:org.apache.karaf.features/framework/") ||
+                            kar.startsWith("mvn:org.hitachivantara.karaf.features/framework/")
                             ? "framework" : "static-framework";
                 }
                 getLog().info("   Standard startup Karaf KAR found: " + kar);

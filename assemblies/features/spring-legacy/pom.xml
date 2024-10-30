@@ -41,7 +41,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.karaf</groupId>
+                <groupId>org.hitachivantara.karaf</groupId>
                 <artifactId>karaf-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
@@ -54,14 +54,14 @@
 
         <!-- Framework distribution -->
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>framework</artifactId>
             <type>kar</type>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>standard</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
@@ -154,10 +154,10 @@
                         </goals>
                         <configuration>
                             <descriptors>
-                                <descriptor>mvn:org.apache.karaf.features/framework/${project.version}/xml/features</descriptor>
+                                <descriptor>mvn:org.hitachivantara.karaf.features/framework/${project.version}/xml/features</descriptor>
                                 <descriptor>file:${project.build.directory}/feature/feature.xml</descriptor>
                             </descriptors>
-                            <distribution>org.apache.karaf.features:framework</distribution>
+                            <distribution>org.hitachivantara.karaf.features:framework</distribution>
                             <javase>17</javase>
                             <framework>
                                 <feature>framework</feature>

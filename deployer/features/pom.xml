@@ -28,7 +28,8 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>org.apache.karaf.deployer.features</artifactId>
+    <groupId>org.hitachivantara.karaf.deployer</groupId>
+    <artifactId>org.hitachivantara.karaf.deployer.features</artifactId>
     <packaging>bundle</packaging>
     <name>Apache Karaf :: Deployer :: Features</name>
     <description>This deployer can deploy features descriptor on the fly</description>
@@ -40,7 +41,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.karaf</groupId>
+                <groupId>org.hitachivantara.karaf</groupId>
                 <artifactId>karaf-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>

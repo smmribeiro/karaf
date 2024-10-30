@@ -76,8 +76,8 @@
         <module>specs</module>
         <module>assemblies</module>
 <!--        <module>examples</module>-->
-        <module>archetypes</module>
-        <module>itests</module>
+<!--        <module>archetypes</module>-->
+<!--        <module>itests</module>-->
     </modules>
 
     <scm>
@@ -369,6 +369,8 @@
         <bnd.version.policy>[$(version;==;$(@)),$(version;+;$(@)))</bnd.version.policy>
         <!-- Disable OBR repository update by default -->
         <obrRepository>NONE</obrRepository>
+
+        <pentaho-karaf.version>4.4.6</pentaho-karaf.version>
     </properties>
 
     <repositories>

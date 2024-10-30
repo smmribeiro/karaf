@@ -28,13 +28,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>static</artifactId>
             <type>kar</type>
             <version>@pom.version@</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>standard</artifactId>
             <classifier>features</classifier>
             <type>xml</type>

@@ -28,8 +28,8 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>org.apache.karaf.diagnostic</groupId>
-    <artifactId>org.apache.karaf.diagnostic.core</artifactId>
+    <groupId>org.hitachivantara.karaf.diagnostic</groupId>
+    <artifactId>org.hitachivantara.karaf.diagnostic.core</artifactId>
     <packaging>bundle</packaging>
     <name>Apache Karaf :: Diagnostic :: Core</name>
     <description>Core implementation using Karaf diagnostic using the diagnostic common services</description>
@@ -41,7 +41,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.karaf</groupId>
+                <groupId>org.hitachivantara.karaf</groupId>
                 <artifactId>karaf-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>

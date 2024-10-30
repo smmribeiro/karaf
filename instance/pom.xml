@@ -41,7 +41,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.karaf</groupId>
+                <groupId>org.hitachivantara.karaf</groupId>
                 <artifactId>karaf-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
@@ -82,14 +82,14 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
-            <artifactId>org.apache.karaf.features.command</artifactId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
+            <artifactId>org.hitachivantara.karaf.features.command</artifactId>
             <optional>true</optional>
         </dependency>
 
         <dependency>
-            <groupId>org.apache.karaf.profile</groupId>
-            <artifactId>org.apache.karaf.profile.core</artifactId>
+            <groupId>org.hitachivantara.karaf.profile</groupId>
+            <artifactId>org.hitachivantara.karaf.profile.core</artifactId>
             <optional>true</optional>
         </dependency>
 

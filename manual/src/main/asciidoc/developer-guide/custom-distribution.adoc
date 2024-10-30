@@ -103,14 +103,14 @@ This is the minimal assembly pom changed to use the packaging and annotated
     <dependencies>
         <dependency>
         <!-- scope is compile so all features (there is only one) are installed into startup.properties and the feature repo itself is not added in etc/org.apache.karaf.features.cfg file -->
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>framework</artifactId>
             <version>${project.version}</version>
             <type>kar</type>
         </dependency>
         <dependency>
         <!-- scope is runtime so the feature repo is listed in etc/org.apache.karaf.features.cfg file, and features will installed into the system directory -->
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>standard</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
@@ -176,14 +176,14 @@ For instance, to pre-install Spring 4.0.7.RELEASE_1 feature in your custom distr
     <dependencies>
         <dependency>
         <!-- scope is compile so all features (there is only one) are installed into startup.properties and the feature repo itself is not added in etc/org.apache.karaf.features.cfg file -->
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>framework</artifactId>
             <version>4.0.0</version>
             <type>kar</type>
         </dependency>
         <dependency>
         <!-- scope is runtime so the feature repo is listed in etc/org.apache.karaf.features.cfg file, and features will installed into the system directory if specify in the plugin configuration -->
-            <groupId>org.apache.karaf.features</groupId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>standard</artifactId>
             <classifier>features</classifier>
             <type>xml</type>

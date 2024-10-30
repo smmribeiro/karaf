@@ -28,7 +28,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>org.apache.karaf.features</groupId>
+    <groupId>org.hitachivantara.karaf.features</groupId>
     <artifactId>framework</artifactId>
     <packaging>pom</packaging>
     <!--<packaging>kar</packaging>-->
@@ -41,7 +41,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.karaf</groupId>
+                <groupId>org.hitachivantara.karaf</groupId>
                 <artifactId>karaf-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
@@ -179,8 +179,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
-            <artifactId>org.apache.karaf.features.extension</artifactId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
+            <artifactId>org.hitachivantara.karaf.features.extension</artifactId>
+            <version>${pentaho-karaf.version}</version>
         </dependency>
         <dependency>
             <groupId>org.hitachivantara.karaf.features</groupId>

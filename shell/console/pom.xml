@@ -40,7 +40,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.karaf</groupId>
+                <groupId>org.hitachivantara.karaf</groupId>
                 <artifactId>karaf-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
@@ -75,8 +75,9 @@
             <artifactId>jansi</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.karaf.jaas</groupId>
-            <artifactId>org.apache.karaf.jaas.modules</artifactId>
+            <groupId>org.hitachivantara.karaf.jaas</groupId>
+            <artifactId>org.hitachivantara.karaf.jaas.modules</artifactId>
+            <version>${pentaho-karaf.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.karaf.jaas</groupId>

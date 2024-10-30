@@ -28,8 +28,8 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>org.apache.karaf.kar</groupId>
-    <artifactId>org.apache.karaf.kar.core</artifactId>
+    <groupId>org.hitachivantara.karaf.kar</groupId>
+    <artifactId>org.hitachivantara.karaf.kar.core</artifactId>
     <packaging>bundle</packaging>
     <name>Apache Karaf :: KAR :: Core</name>
     <description>This bundle provides core implementation of the KAR management service.</description>
@@ -41,7 +41,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.karaf</groupId>
+                <groupId>org.hitachivantara.karaf</groupId>
                 <artifactId>karaf-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
@@ -73,8 +73,8 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.karaf.features</groupId>
-            <artifactId>org.apache.karaf.features.command</artifactId>
+            <groupId>org.hitachivantara.karaf.features</groupId>
+            <artifactId>org.hitachivantara.karaf.features.command</artifactId>
             <scope>provided</scope>
             <optional>true</optional>
         </dependency>

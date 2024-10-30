@@ -118,11 +118,11 @@ Take a look in the developer guide for the command development "new style" detai
 
 Karaf 4.x provides:
 
-* `mvn:org.apache.karaf.features/enterprise/4.0.x/xml/features`
-* `mvn:org.apache.karaf.features/framework/4.0.x/xml/features`
+* `mvn:org.hitachivantara.karaf.features/enterprise/4.0.x/xml/features`
+* `mvn:org.hitachivantara.karaf.features/framework/4.0.x/xml/features`
 * `mvn:org.apache.karaf.features/spring/4.0.x/xml/features`
-* `mvn:org.apache.karaf.features/standard/4.0.x/xml/features`
-* `mvn:org.apache.karaf.features/static/4.0.x/xml/features`
+* `mvn:org.hitachivantara.karaf.features/standard/4.0.x/xml/features`
+* `mvn:org.hitachivantara.karaf.features/static/4.0.x/xml/features`
 
 === Features resolver
 

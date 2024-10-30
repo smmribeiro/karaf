@@ -78,8 +78,8 @@
 						<version>${project.version}</version>
 					</dependency>
 					<dependency>
-						<groupId>org.apache.karaf.bundle</groupId>
-						<artifactId>org.apache.karaf.bundle.core</artifactId>
+						<groupId>org.hitachivantara.karaf.bundle</groupId>
+						<artifactId>org.hitachivantara.karaf.bundle.core</artifactId>
 						<version>${project.version}</version>
 					</dependency>
 					<dependency>
@@ -118,13 +118,13 @@
 						<version>${project.version}</version>
 					</dependency>
 					<dependency>
-						<groupId>org.apache.karaf.diagnostic</groupId>
-						<artifactId>org.apache.karaf.diagnostic.core</artifactId>
+						<groupId>org.hitachivantara.karaf.diagnostic</groupId>
+						<artifactId>org.hitachivantara.karaf.diagnostic.core</artifactId>
 						<version>${project.version}</version>
 					</dependency>
 					<dependency>
-						<groupId>org.apache.karaf.features</groupId>
-						<artifactId>org.apache.karaf.features.command</artifactId>
+						<groupId>org.hitachivantara.karaf.features</groupId>
+						<artifactId>org.hitachivantara.karaf.features.command</artifactId>
 						<version>${project.version}</version>
 					</dependency>
 					<dependency>
@@ -158,8 +158,8 @@
 						<version>${project.version}</version>
 					</dependency>
 					<dependency>
-						<groupId>org.apache.karaf.kar</groupId>
-						<artifactId>org.apache.karaf.kar.core</artifactId>
+						<groupId>org.hitachivantara.karaf.kar</groupId>
+						<artifactId>org.hitachivantara.karaf.kar.core</artifactId>
 						<version>${project.version}</version>
 					</dependency>
 					<dependency>
@@ -168,8 +168,8 @@
 						<version>${project.version}</version>
 					</dependency>
 					<dependency>
-						<groupId>org.apache.karaf.profile</groupId>
-						<artifactId>org.apache.karaf.profile.core</artifactId>
+						<groupId>org.hitachivantara.karaf.profile</groupId>
+						<artifactId>org.hitachivantara.karaf.profile.core</artifactId>
 						<version>${project.version}</version>
 					</dependency>
 					<dependency>

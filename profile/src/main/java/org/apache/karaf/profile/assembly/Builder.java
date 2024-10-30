@@ -114,7 +114,7 @@ import static org.apache.karaf.profile.assembly.Builder.Stage.Startup;
  */
 public class Builder {
 
-    private static final String STATIC_FEATURES_KAR = "mvn:org.apache.karaf.features/static/%s/kar";
+    private static final String STATIC_FEATURES_KAR = "mvn:org.hitachivantara.karaf.features/static/%s/kar";
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Builder.class);
 
