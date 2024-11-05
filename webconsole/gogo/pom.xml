@@ -89,7 +89,7 @@
         <dependency>
             <groupId>org.hitachivantara.karaf.jaas</groupId>
             <artifactId>org.hitachivantara.karaf.jaas.modules</artifactId>
-            <version>${pentaho-karaf.version}</version>
+            <version>${pentaho-apache-karaf.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.karaf.shell</groupId>

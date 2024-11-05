@@ -370,7 +370,7 @@
         <!-- Disable OBR repository update by default -->
         <obrRepository>NONE</obrRepository>
 
-        <pentaho-karaf.version>4.4.6</pentaho-karaf.version>
+        <pentaho-apache-karaf.version>4.4.6</pentaho-apache-karaf.version>
     </properties>
 
     <repositories>

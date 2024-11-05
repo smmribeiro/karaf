@@ -181,7 +181,7 @@
         <dependency>
             <groupId>org.hitachivantara.karaf.features</groupId>
             <artifactId>org.hitachivantara.karaf.features.extension</artifactId>
-            <version>${pentaho-karaf.version}</version>
+            <version>${pentaho-apache-karaf.version}</version>
         </dependency>
         <dependency>
             <groupId>org.hitachivantara.karaf.features</groupId>
