@@ -17,6 +17,46 @@
     under the License.
 -->
 
+# Pentaho build and additiona information
+
+## Vulnerabilities addressed by Pentaho changes and their target version:
+
+Vulnerability | New version | Ticket
+--- | --- | ---
+Karaf | 4.4.6 | https://hv-eng.atlassian.net/browse/PPP-4893
+Mina-core | 2.2.3 | https://hv-eng.atlassian.net/browse/PPP-5077
+Snake-yaml | 2.2 | https://hv-eng.atlassian.net/browse/PPP-5128
+Camel-core | 3.22.2 | https://hv-eng.atlassian.net/browse/PPP-4407
+Jackson-databind | 2.17.2 | https://hv-eng.atlassian.net/browse/PPP-4660
+Apache-cxf | 3.6.4 | https://hv-eng.atlassian.net/browse/PPP-4760
+Bouncy castle | 1.78 | https://hv-eng.atlassian.net/browse/PPP-5043
+Sshd-sftp | 2.12.1 | https://hv-eng.atlassian.net/browse/PPP-4967
+
+## Github information
+
+Github repository: https://github.com/pentaho/karaf
+
+Github branch: hitachi_custom_4.4.6
+
+## Artifacts published for Pentaho
+
+Artifacts to be published: |
+--- |
+org.hitachivantara.karaf.features:org.hitachivantara.karaf.features.extension | | 
+org.hitachivantara.karaf.features:org.hitachivantara.karaf.features.core |
+org.hitachivantara.karaf.features:org.hitachivantara.karaf.features.command |
+org.hitachivantara.karaf.kar:org.hitachivantara.karaf.kar.core |
+org.hitachivantara.karaf.bundle:org.hitachivantara.karaf.bundle.core |
+org.hitachivantara.karaf.jaas:org.hitachivantara.karaf.jaas.modules |
+org.hitachivantara.karaf.tooling:karaf-maven-plugin |
+org.hitachivantara.karaf.features:framework |
+org.hitachivantara.karaf.features:standard |
+org.hitachivantara.karaf.features:enterprise |
+
+## Maven build command:
+
+mvn clean install -DskipTests -pl  .,bom,features/extension,features/core,features/command,kar,bundle/core,config/core,deployer/features,deployer/kar,shell/console,jaas/modules,jaas/jasypt,jaas/spring-security-crypto,jaas/blueprint/jasypt,diagnostic/core,profile,tooling/karaf-maven-plugin,assemblies/features/framework,assemblies/features/static,assemblies/features/specs,assemblies/features/standard,assemblies/features/enterprise
+
 # Apache Karaf
 
 [Apache Karaf](https://karaf.apache.org) is a modulith runtime, supporting several frameworks and programming model (REST/API, web, spring boot, ...).

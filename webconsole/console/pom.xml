@@ -35,6 +35,7 @@
 
     <properties>
         <appendedResourcesDirectory>${project.basedir}/../../etc/appended-resources</appendedResourcesDirectory>
+        <pentaho-apache-karaf.version>4.4.6</pentaho-apache-karaf.version>
     </properties>
 
     <dependencyManagement>
