@@ -433,6 +433,11 @@
 <!--            <version>${safeyaml.version}</version>-->
 <!--        </dependency>-->
         <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>2.3</version>
+        </dependency>
+        <dependency>
             <groupId>org.hitachivantara</groupId>
             <artifactId>jackson-dataformat-yaml</artifactId>
             <version>${hv-jackson-dataformat.version}</version>
