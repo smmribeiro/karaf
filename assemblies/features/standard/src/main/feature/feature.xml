@@ -1483,7 +1483,7 @@ org.apache.felix.eventadmin.AddSubject=true
         </conditional>
         <capability>
             osgi.service;effective:=active;objectClass=org.apache.felix.scr.ScrService,
-            osgi.extender;osgi.extender="osgi.component";uses:="org.osgi.service.component";version:Version="1.2.1"
+            osgi.extender;osgi.extender="osgi.component";uses:="org.osgi.service.component";version:Version="${org.osgi.service.component.version}"
         </capability>
     </feature>
 
