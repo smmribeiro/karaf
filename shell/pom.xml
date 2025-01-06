@@ -28,7 +28,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>org.apache.karaf.shell</groupId>
+    <groupId>org.hitachivantara.karaf.shell</groupId>
     <artifactId>shell</artifactId>
     <packaging>pom</packaging>
     <name>Apache Karaf :: Shell</name>

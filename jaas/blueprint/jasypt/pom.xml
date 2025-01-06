@@ -22,7 +22,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.karaf.jaas.blueprint</groupId>
+        <groupId>org.hitachivantara.karaf.jaas.blueprint</groupId>
         <artifactId>blueprint</artifactId>
         <version>4.4.6</version>
         <relativePath>../pom.xml</relativePath>
