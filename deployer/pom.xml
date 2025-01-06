@@ -28,7 +28,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>org.apache.karaf.deployer</groupId>
+    <groupId>org.hitachivantara.karaf.deployer</groupId>
     <artifactId>deployer</artifactId>
     <packaging>pom</packaging>
     <name>Apache Karaf :: Deployer</name>

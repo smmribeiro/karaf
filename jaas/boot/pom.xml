@@ -22,7 +22,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.karaf.jaas</groupId>
+        <groupId>org.hitachivantara.karaf.jaas</groupId>
         <artifactId>jaas</artifactId>
         <version>4.4.6</version>
         <relativePath>../pom.xml</relativePath>
