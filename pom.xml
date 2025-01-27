@@ -31,7 +31,7 @@
     <groupId>org.hitachivantara.karaf</groupId>
     <artifactId>karaf</artifactId>
     <packaging>pom</packaging>
-    <version>4.4.6</version>
+    <version>4.4.6-2025.01.24</version>
     <name>Apache Karaf</name>
     <inceptionYear>2007</inceptionYear>
 
@@ -84,7 +84,7 @@
         <connection>${scm.connection}</connection>
         <developerConnection>${scm.developerConnection}</developerConnection>
         <url>${scm.url}</url>
-        <tag>karaf-4.4.6</tag>
+        <tag>karaf-4.4.6-2025.01.24</tag>
     </scm>
 
     <distributionManagement>
@@ -371,7 +371,8 @@
         <!-- Disable OBR repository update by default -->
         <obrRepository>NONE</obrRepository>
 
-        <pentaho-apache-karaf.version>4.4.6</pentaho-apache-karaf.version>
+        <karaf.project.version>4.4.6</karaf.project.version>
+        <pentaho-apache-karaf.version>4.4.6-2025.01.24</pentaho-apache-karaf.version>
     </properties>
 
     <repositories>
@@ -634,7 +635,7 @@
                 <plugin>
                     <groupId>org.apache.karaf.tooling</groupId>
                     <artifactId>karaf-maven-plugin</artifactId>
-                    <version>${project.version}</version>
+                    <version>${karaf.project.version}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.eclipse.m2e</groupId>
@@ -703,7 +704,7 @@
                 <plugin>
                     <groupId>org.apache.karaf.tooling</groupId>
                     <artifactId>karaf-services-maven-plugin</artifactId>
-                    <version>${project.version}</version>
+                    <version>${karaf.project.version}</version>
                     <executions>
                         <execution>
                             <id>service-metadata-generate</id>

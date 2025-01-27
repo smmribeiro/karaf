@@ -24,18 +24,17 @@
     <parent>
         <groupId>org.hitachivantara.karaf.tooling</groupId>
         <artifactId>tooling</artifactId>
-        <version>4.4.6</version>
+        <version>4.4.6-2025.01.24</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <groupId>org.hitachivantara.karaf.tooling</groupId>
     <artifactId>karaf-maven-plugin</artifactId>
-    <version>4.4.6</version>
+    <version>4.4.6-2025.01.24</version>
     <packaging>maven-plugin</packaging>
     <name>Apache Karaf :: Tooling :: Maven Karaf Plugin</name>
 
     <properties>
-        <karaf.project.version>4.4.6</karaf.project.version>
         <appendedResourcesDirectory>${basedir}/../../etc/appended-resources</appendedResourcesDirectory>
         <mvn.opts />
         <invoker.skip />

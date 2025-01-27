@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.hitachivantara.karaf.shell</groupId>
         <artifactId>shell</artifactId>
-        <version>4.4.6</version>
+        <version>4.4.6-2025.01.24</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -35,7 +35,7 @@
 
     <properties>
         <appendedResourcesDirectory>${basedir}/../../etc/appended-resources</appendedResourcesDirectory>
-        <pentaho-apache-karaf.version>4.4.6</pentaho-apache-karaf.version>
+        <pentaho-apache-karaf.version>4.4.6-2025.01.24</pentaho-apache-karaf.version>
     </properties>
 
     <dependencyManagement>
@@ -173,15 +173,15 @@
                             *
                         </Import-Package>
                         <Export-Package>
-                        	org.apache.karaf.shell.commands;version=${project.version};-noimport:=true,
+                        	org.apache.karaf.shell.commands;version=${karaf.project.version};-noimport:=true,
                             org.apache.karaf.shell.commands;version=2.3.0;-noimport:=true,
-                            org.apache.karaf.shell.commands.basic;version=${project.version};-noimport:=true,
+                            org.apache.karaf.shell.commands.basic;version=${karaf.project.version};-noimport:=true,
                             org.apache.karaf.shell.commands.basic;version=2.3.0;-noimport:=true,
-                            org.apache.karaf.shell.commands.converter;version=${project.version};-noimport:=true,
+                            org.apache.karaf.shell.commands.converter;version=${karaf.project.version};-noimport:=true,
                             org.apache.karaf.shell.commands.converter;version=2.3.0;-noimport:=true,
-                            org.apache.karaf.shell.commands.meta;version=${project.version};-noimport:=true,
+                            org.apache.karaf.shell.commands.meta;version=${karaf.project.version};-noimport:=true,
                             org.apache.karaf.shell.commands.meta;version=2.3.0;-noimport:=true,
-                        	org.apache.karaf.shell.console;version=${project.version};-noimport:=true,
+                        	org.apache.karaf.shell.console;version=${karaf.project.version};-noimport:=true,
                             org.apache.karaf.shell.console;version=2.3.0;-noimport:=true,
                         	org.apache.karaf.shell.console.commands;version=${project.version};-noimport:=true,
                             org.apache.karaf.shell.console.commands;version=2.3.0;-noimport:=true,

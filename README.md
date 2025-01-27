@@ -19,6 +19,16 @@
 
 # Pentaho build and additiona information
 
+## Changes introduced per custom version
+
+After the vulnerabilities addressed on version 4.4.6, we started an effort to update the custom Pentaho version upon new changes introduced by us to Karaf 4.4.6 to avoid regression triggered by new artifacts with the same version.
+
+From now on, for every new merge, please update the Karaf version to build new Karaf artifacts.
+
+Version | Date | Changes
+--- | --- | ---
+4.4.6-2025.01.24 | 1/27/2025 | Upgraded Pax Web to 8.0.30 (PPP-5480)  
+
 ## Vulnerabilities addressed by Pentaho changes and their target version:
 
 Vulnerability | New version | Ticket
@@ -55,7 +65,7 @@ org.hitachivantara.karaf.features:enterprise |
 
 ## Maven build command:
 
-mvn clean install -DskipTests -pl  .,bom,features/extension,features/core,features/command,kar,bundle/core,config/core,deployer/features,deployer/kar,shell/console,jaas/modules,jaas/jasypt,jaas/spring-security-crypto,jaas/blueprint/jasypt,diagnostic/core,profile,tooling/karaf-maven-plugin,assemblies/features/framework,assemblies/features/static,assemblies/features/specs,assemblies/features/standard,assemblies/features/enterprise
+mvn clean install -DskipTests -pl .,bom,features,features/extension,features/core,features/command,kar,bundle,bundle/core,config,config/core,deployer,deployer/features,deployer/kar,shell,shell/console,jaas,jaas/modules,jaas/jasypt,jaas/spring-security-crypto,jaas/blueprint,jaas/blueprint/jasypt,diagnostic,diagnostic/core,profile,tooling,tooling/karaf-maven-plugin,assemblies,assemblies/features,assemblies/features/framework,assemblies/features/static,assemblies/features/specs,assemblies/features/standard,assemblies/features/enterprise
 
 # Apache Karaf
 

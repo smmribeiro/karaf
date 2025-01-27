@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.hitachivantara.karaf</groupId>
         <artifactId>karaf</artifactId>
-        <version>4.4.6</version>
+        <version>4.4.6-2025.01.24</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -84,7 +84,7 @@
         <dependency>
             <groupId>org.apache.karaf.tooling</groupId>
             <artifactId>org.apache.karaf.tools.utils</artifactId>
-            <version>${project.version}</version>
+            <version>${karaf.project.version}</version>
         </dependency>
 
         <dependency>

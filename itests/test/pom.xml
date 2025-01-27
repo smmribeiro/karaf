@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.karaf.itests</groupId>
         <artifactId>itests</artifactId>
-        <version>4.4.6</version>
+        <version>4.4.6-2025.01.24</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -252,7 +252,7 @@
         <dependency>
             <groupId>org.apache.karaf.diagnostic</groupId>
             <artifactId>org.apache.karaf.diagnostic.boot</artifactId>
-            <version>${project.version}</version>
+            <version>${karaf.project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.karaf.examples</groupId>
