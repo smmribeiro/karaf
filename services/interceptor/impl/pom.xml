@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.karaf.services</groupId>
         <artifactId>org.apache.karaf.services.interceptor</artifactId>
-        <version>4.4.6</version>
+        <version>4.4.6-2025.01.24</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -120,7 +120,7 @@
         <dependency>
             <groupId>org.apache.karaf.specs</groupId>
             <artifactId>org.apache.karaf.specs.locator</artifactId>
-            <version>${project.version}</version>
+            <version>${karaf.project.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

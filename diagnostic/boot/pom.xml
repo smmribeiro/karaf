@@ -24,12 +24,13 @@
     <parent>
         <groupId>org.hitachivantara.karaf.diagnostic</groupId>
         <artifactId>diagnostic</artifactId>
-        <version>4.4.6</version>
+        <version>4.4.6-2025.01.24</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.karaf.diagnostic</groupId>
     <artifactId>org.apache.karaf.diagnostic.boot</artifactId>
+    <version>4.4.6</version>
     <packaging>bundle</packaging>
     <name>Apache Karaf :: Diagnostic :: Boot</name>
     <description>Diagnostic Core implementation</description>
