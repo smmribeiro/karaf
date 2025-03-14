@@ -27,7 +27,8 @@ From now on, for every new merge, please update the Karaf version to build new K
 
 Version | Date | Changes
 --- | --- | ---
-4.4.6-2025.01.24 | 1/27/2025 | Upgraded Pax Web to 8.0.30 (PPP-5480)  
+4.4.6-2025.01.24 | 1/27/2025 | Upgraded Pax Web to 8.0.30 (PPP-5480)
+4.4.6-2025.03.14 | 3/14/2025 | Upgraded Pax Web to 8.0.31 (PPP-5627)
 
 ## Vulnerabilities addressed by Pentaho changes and their target version:
 
