@@ -17,7 +17,7 @@
     under the License.
 -->
 
-# Pentaho build and additiona information
+# Pentaho build and additional information
 
 ## Changes introduced per custom version
 
@@ -29,6 +29,7 @@ Version | Date | Changes
 --- | --- | ---
 4.4.6-2025.01.24 | 1/27/2025 | Upgraded Pax Web to 8.0.30 (PPP-5480)
 4.4.6-2025.03.14 | 3/14/2025 | Upgraded Pax Web to 8.0.31 (PPP-5627)
+4.4.6-2025.03.31 | 3/14/2025 | Upgraded Jetty to 9.4.57.v20241219 (PPP-5585)
 
 ## Vulnerabilities addressed by Pentaho changes and their target version:
 
@@ -36,11 +37,11 @@ Vulnerability | New version | Ticket
 --- | --- | ---
 Karaf | 4.4.6 | https://hv-eng.atlassian.net/browse/PPP-4893
 Mina-core | 2.2.3 | https://hv-eng.atlassian.net/browse/PPP-5077
-Snake-yaml | 2.2 | https://hv-eng.atlassian.net/browse/PPP-5128
-Camel-core | 3.22.2 | https://hv-eng.atlassian.net/browse/PPP-4407
-Jackson-databind | 2.17.2 | https://hv-eng.atlassian.net/browse/PPP-4660
-Apache-cxf | 3.6.4 | https://hv-eng.atlassian.net/browse/PPP-4760
-Bouncy castle | 1.78 | https://hv-eng.atlassian.net/browse/PPP-5043
+Snake-yaml | 2.3 | https://hv-eng.atlassian.net/browse/PPP-4893
+Camel-core | 3.22.2 | https://hv-eng.atlassian.net/browse/PPP-4893
+Jackson-databind | 2.17.2 | https://hv-eng.atlassian.net/browse/PPP-4893
+Apache-cxf | 3.6.4 | https://hv-eng.atlassian.net/browse/PPP-4893
+Bouncy castle | 1.78.1 | https://hv-eng.atlassian.net/browse/PPP-4893
 Sshd-sftp | 2.12.1 | https://hv-eng.atlassian.net/browse/PPP-4967
 
 ## Github information
