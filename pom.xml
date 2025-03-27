@@ -373,6 +373,7 @@
 
         <karaf.project.version>4.4.6</karaf.project.version>
         <pentaho-apache-karaf.version>4.4.6-2025.03.14</pentaho-apache-karaf.version>
+        <jetty.version>9.4.57.v20241219</jetty.version>
     </properties>
 
     <repositories>
