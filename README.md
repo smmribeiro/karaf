@@ -30,6 +30,7 @@ Version | Date | Changes
 4.4.6-2025.01.24 | 1/27/2025 | Upgraded Pax Web to 8.0.30 (PPP-5480)
 4.4.6-2025.03.14 | 3/14/2025 | Upgraded Pax Web to 8.0.31 (PPP-5627)
 4.4.6-2025.03.31 | 3/14/2025 | Upgraded Jetty to 9.4.57.v20241219 (PPP-5585)
+4.4.6-2025.04.04 | 4/04/2025 | Upgraded Camel to 3.22.4 (PPP-5635)
 
 ## Vulnerabilities addressed by Pentaho changes and their target version:
 
@@ -43,6 +44,7 @@ Jackson-databind | 2.17.2 | https://hv-eng.atlassian.net/browse/PPP-4893
 Apache-cxf | 3.6.4 | https://hv-eng.atlassian.net/browse/PPP-4893
 Bouncy castle | 1.78.1 | https://hv-eng.atlassian.net/browse/PPP-4893
 Sshd-sftp | 2.12.1 | https://hv-eng.atlassian.net/browse/PPP-4967
+Camel-core | 3.22.4 | https://hv-eng.atlassian.net/browse/PPP-5635
 
 ## Github information
 
