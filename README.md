@@ -27,30 +27,42 @@ From now on, for every new merge, please update the Karaf version to build new K
 
 Version | Date | Changes
 --- | --- | ---
-4.4.6-2025.01.24 | 1/27/2025 | Upgraded Pax Web to 8.0.30 (PPP-5480)
-4.4.6-2025.03.14 | 3/14/2025 | Upgraded Pax Web to 8.0.31 (PPP-5627)
-4.4.6-2025.03.31 | 3/14/2025 | Upgraded Jetty to 9.4.57.v20241219 (PPP-5585)
-4.4.6-2025.04.04 | 4/04/2025 | Upgraded Camel to 3.22.4 (PPP-5635)
+4.4.6-2025.01.24 | 1/27/2025 | Upgraded Pax Web to 8.0.30 ([PPP-5480](https://hv-eng.atlassian.net/browse/PPP-5480))
+4.4.6-2025.03.14 | 3/14/2025 | Upgraded Pax Web to 8.0.31 ([PPP-5627](https://hv-eng.atlassian.net/browse/PPP-5627))
+4.4.6-2025.03.31 | 3/31/2025 | Upgraded Jetty to 9.4.57.v20241219 ([PPP-5585](https://hv-eng.atlassian.net/browse/PPP-5585))
+4.4.6-2025.04.04 | 4/04/2025 | Upgraded Camel to 3.22.4 ([PPP-5635](https://hv-eng.atlassian.net/browse/PPP-5635))
+4.4.6-2025.06.11 | 6/11/2025 | Upgraded Pax Web to 8.0.32 ([PPP-5709](https://hv-eng.atlassian.net/browse/PPP-5709))
 
-## Vulnerabilities addressed by Pentaho changes and their target version:
+## Vulnerabilities addressed by Pentaho after the fork:
 
 Vulnerability | New version | Ticket
 --- | --- | ---
 Karaf | 4.4.6 | https://hv-eng.atlassian.net/browse/PPP-4893
-Mina-core | 2.2.3 | https://hv-eng.atlassian.net/browse/PPP-5077
-Snake-yaml | 2.3 | https://hv-eng.atlassian.net/browse/PPP-4893
-Camel-core | 3.22.2 | https://hv-eng.atlassian.net/browse/PPP-4893
-Jackson-databind | 2.17.2 | https://hv-eng.atlassian.net/browse/PPP-4893
-Apache-cxf | 3.6.4 | https://hv-eng.atlassian.net/browse/PPP-4893
+Apache CXF | 3.6.4 | https://hv-eng.atlassian.net/browse/PPP-4893
 Bouncy castle | 1.78.1 | https://hv-eng.atlassian.net/browse/PPP-4893
-Sshd-sftp | 2.12.1 | https://hv-eng.atlassian.net/browse/PPP-4967
-Camel-core | 3.22.4 | https://hv-eng.atlassian.net/browse/PPP-5635
+Camel Core OSGi | 3.22.4 | https://hv-eng.atlassian.net/browse/PPP-5635
+Jackson FasterXML | 2.17.2 | https://hv-eng.atlassian.net/browse/PPP-4893
+Jetty | 9.4.57.v20241219 | https://hv-eng.atlassian.net/browse/PPP-5585
+Pax Logging | 2.2.8 | https://hv-eng.atlassian.net/browse/PPP-5618
+Pax URL | 2.6.16 | https://hv-eng.atlassian.net/browse/PPP-5618
+Pax Web | 8.0.32 | https://hv-eng.atlassian.net/browse/PPP-5709
+SnakeYAML | 2.3 | https://hv-eng.atlassian.net/browse/PPP-4893
+
+## Karaf modules removed/ignored on the Pentaho fork:
+
+The following modules, existing on the original Karaf version, were considered unnecessary and removed/ignored in this Pentaho custom Karaf version:
+
+Modules | Ticket
+--- | ---
+/archetypes | https://hv-eng.atlassian.net/browse/PPP-4893
+/examples | https://hv-eng.atlassian.net/browse/PPP-4893
+/itests | https://hv-eng.atlassian.net/browse/PPP-4893
 
 ## Github information
 
 Github repository: https://github.com/pentaho/karaf
 
-Github branch: hitachi_custom_4.4.6
+Github branch: **hitachi_custom_4.4.6**
 
 ## Artifacts published for Pentaho
 
