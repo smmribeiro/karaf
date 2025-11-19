@@ -34,13 +34,14 @@ Version | Date | Changes
 4.4.6-2025.06.11 | 6/11/2025 | Upgraded Pax Web to 8.0.32 ([PPP-5709](https://hv-eng.atlassian.net/browse/PPP-5709))
 4.4.6-2025.07.01 | 7/01/2025 | Upgraded Commons BeanUtils to 1.11.0 ([PPP-5731](https://hv-eng.atlassian.net/browse/PPP-5731))
 4.4.6-2025.08.05 | 8/05/2025 | Upgraded Commons FileUpload to 1.6.0 ([PPP-5769](https://hv-eng.atlassian.net/browse/PPP-5769))
+4.4.6-2025.11.19 | 11/19/2025 | Upgraded cxf to 3.6.8 ([PPP-5863](https://hv-eng.atlassian.net/browse/PPP-5863))
 
 ## Vulnerabilities addressed by Pentaho after the fork:
 
 Vulnerability | New version | Ticket
 --- | --- | ---
 Karaf | 4.4.6 | https://hv-eng.atlassian.net/browse/PPP-4893
-Apache CXF | 3.6.4 | https://hv-eng.atlassian.net/browse/PPP-4893
+Apache CXF | 3.6.8 | https://hv-eng.atlassian.net/browse/PPP-5863
 Bouncy castle | 1.78.1 | https://hv-eng.atlassian.net/browse/PPP-4893
 Camel Core OSGi | 3.22.4 | https://hv-eng.atlassian.net/browse/PPP-5635
 Jackson FasterXML | 2.17.2 | https://hv-eng.atlassian.net/browse/PPP-4893
