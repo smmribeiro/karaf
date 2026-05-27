@@ -37,6 +37,7 @@ Version | Date | Changes
 4.4.6-2025.11.19 | 11/19/2025 | Upgraded cxf to 3.6.8 ([PPP-5863](https://hv-eng.atlassian.net/browse/PPP-5863))
 4.4.6-2026.05.04 | 5/04/2026 | Upgraded Bouncy Castle to 1.84 ([PPP-6390](https://hv-eng.atlassian.net/browse/PPP-6390),[PPP-6391](https://hv-eng.atlassian.net/browse/PPP-6391))
 4.4.6-2026.05.12 | 5/12/2026 | Upgraded log libraries ([PPP-6425](https://hv-eng.atlassian.net/browse/PPP-6425))
+4.4.6-2026.05.27 | 5/27/2026 | Upgraded woodstox-core to 6.4.0 ([PPP-6501](https://hv-eng.atlassian.net/browse/PPP-6501))
 
 ## Vulnerabilities addressed by Pentaho after the fork:
 
