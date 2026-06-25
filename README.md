@@ -25,22 +25,21 @@ After the vulnerabilities addressed on version 4.4.6, we started an effort to up
 
 From now on, for every new merge, please update the Karaf version to build new Karaf artifacts.
 
-Version | Date | Changes
---- | --- | ---
-4.4.6-2025.01.24 | 1/27/2025 | Upgraded Pax Web to 8.0.30 ([PPP-5480](https://hv-eng.atlassian.net/browse/PPP-5480))
-4.4.6-2025.03.14 | 3/14/2025 | Upgraded Pax Web to 8.0.31 ([PPP-5627](https://hv-eng.atlassian.net/browse/PPP-5627))
-4.4.6-2025.03.31 | 3/31/2025 | Upgraded Jetty to 9.4.57.v20241219 ([PPP-5585](https://hv-eng.atlassian.net/browse/PPP-5585))
-4.4.6-2025.04.04 | 4/04/2025 | Upgraded Camel to 3.22.4 ([PPP-5635](https://hv-eng.atlassian.net/browse/PPP-5635))
-4.4.6-2025.06.11 | 6/11/2025 | Upgraded Pax Web to 8.0.32 ([PPP-5709](https://hv-eng.atlassian.net/browse/PPP-5709))
-4.4.6-2025.07.01 | 7/01/2025 | Upgraded Commons BeanUtils to 1.11.0 ([PPP-5731](https://hv-eng.atlassian.net/browse/PPP-5731))
-4.4.6-2025.08.05 | 8/05/2025 | Upgraded Commons FileUpload to 1.6.0 ([PPP-5769](https://hv-eng.atlassian.net/browse/PPP-5769))
+Version | Date       | Changes
+--- |------------| ---
+4.4.6-2025.01.24 | 1/27/2025  | Upgraded Pax Web to 8.0.30 ([PPP-5480](https://hv-eng.atlassian.net/browse/PPP-5480))
+4.4.6-2025.03.14 | 3/14/2025  | Upgraded Pax Web to 8.0.31 ([PPP-5627](https://hv-eng.atlassian.net/browse/PPP-5627))
+4.4.6-2025.03.31 | 3/31/2025  | Upgraded Jetty to 9.4.57.v20241219 ([PPP-5585](https://hv-eng.atlassian.net/browse/PPP-5585))
+4.4.6-2025.04.04 | 4/04/2025  | Upgraded Camel to 3.22.4 ([PPP-5635](https://hv-eng.atlassian.net/browse/PPP-5635))
+4.4.6-2025.06.11 | 6/11/2025  | Upgraded Pax Web to 8.0.32 ([PPP-5709](https://hv-eng.atlassian.net/browse/PPP-5709))
+4.4.6-2025.07.01 | 7/01/2025  | Upgraded Commons BeanUtils to 1.11.0 ([PPP-5731](https://hv-eng.atlassian.net/browse/PPP-5731))
+4.4.6-2025.08.05 | 8/05/2025  | Upgraded Commons FileUpload to 1.6.0 ([PPP-5769](https://hv-eng.atlassian.net/browse/PPP-5769))
 4.4.6-2025.11.19 | 11/19/2025 | Upgraded cxf to 3.6.8 ([PPP-5863](https://hv-eng.atlassian.net/browse/PPP-5863))
-4.4.6-2026.05.04 | 5/04/2026 | Upgraded Bouncy Castle to 1.84 ([PPP-6390](https://hv-eng.atlassian.net/browse/PPP-6390),[PPP-6391](https://hv-eng.atlassian.net/browse/PPP-6391))
-4.4.6-2026.05.12 | 5/12/2026 | Upgraded log libraries ([PPP-6425](https://hv-eng.atlassian.net/browse/PPP-6425))
-4.4.6-2026.05.27 | 5/27/2026 | Upgraded woodstox-core to 6.4.0 ([PPP-6501](https://hv-eng.atlassian.net/browse/PPP-6501))
-4.4.6-2026.06.30 | 6/30/2026 | Upgraded jline to 3.30.14 ([PPP-6680](https://hv-eng.atlassian.net/browse/PPP-6680))
-
-
+4.4.6-2026.05.04 | 5/04/2026  | Upgraded Bouncy Castle to 1.84 ([PPP-6390](https://hv-eng.atlassian.net/browse/PPP-6390),[PPP-6391](https://hv-eng.atlassian.net/browse/PPP-6391))
+4.4.6-2026.05.12 | 5/12/2026  | Upgraded log libraries ([PPP-6425](https://hv-eng.atlassian.net/browse/PPP-6425))
+4.4.6-2026.05.27 | 5/27/2026  | Upgraded woodstox-core to 6.4.0 ([PPP-6501](https://hv-eng.atlassian.net/browse/PPP-6501))
+4.4.6-2026.06.30 | 6/30/2026  | Upgraded jline to 3.30.14 ([PPP-6680](https://hv-eng.atlassian.net/browse/PPP-6680))
+4.4.6-2026.06.30 | 6/30/2026  | Upgraded pax-url-aether to 3.0.3 ([PPP-6340](https://hv-eng.atlassian.net/browse/PPP-6340))
 ## Vulnerabilities addressed by Pentaho after the fork:
 
 Vulnerability | New version | Ticket

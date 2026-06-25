@@ -70,6 +70,11 @@
             <artifactId>org.apache.felix.gogo.runtime</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>org.eclipse.platform</groupId>
             <artifactId>org.eclipse.equinox.region</artifactId>
             <scope>provided</scope>
