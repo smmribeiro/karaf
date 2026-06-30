@@ -38,6 +38,8 @@ Version | Date | Changes
 4.4.6-2026.05.04 | 5/04/2026 | Upgraded Bouncy Castle to 1.84 ([PPP-6390](https://hv-eng.atlassian.net/browse/PPP-6390),[PPP-6391](https://hv-eng.atlassian.net/browse/PPP-6391))
 4.4.6-2026.05.12 | 5/12/2026 | Upgraded log libraries ([PPP-6425](https://hv-eng.atlassian.net/browse/PPP-6425))
 4.4.6-2026.05.27 | 5/27/2026 | Upgraded woodstox-core to 6.4.0 ([PPP-6501](https://hv-eng.atlassian.net/browse/PPP-6501))
+4.4.6-2026.06.30 | 6/30/2026 | Upgraded jline to 3.30.14 ([PPP-6680](https://hv-eng.atlassian.net/browse/PPP-6680))
+
 
 ## Vulnerabilities addressed by Pentaho after the fork:
 
