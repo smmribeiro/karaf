@@ -251,7 +251,7 @@
 
         </config>
         <bundle dependency="true" start-level="30">mvn:org.fusesource.jansi/jansi/${jansi.version}</bundle>
-        <bundle dependency="true" start-level="30">mvn:org.jline/jline/${jline.version}</bundle>
+        <bundle dependency="true" start-level="30">mvn:org.jline/jline/${jline.version}/jar/jdk8</bundle>
         <bundle start-level="30">mvn:org.apache.karaf.shell/org.apache.karaf.shell.core/${karaf.project.version}</bundle>
         <bundle start-level="30">mvn:org.apache.karaf.shell/org.apache.karaf.shell.commands/${karaf.project.version}</bundle>
          <conditional>

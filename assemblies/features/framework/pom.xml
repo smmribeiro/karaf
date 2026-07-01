@@ -96,6 +96,7 @@
         <dependency>
             <groupId>org.jline</groupId>
             <artifactId>jline</artifactId>
+            <classifier>jdk8</classifier>
         </dependency>
 
         <!-- listed in source feature.xml with explicit startlevel -->
@@ -265,6 +266,7 @@
                                 <artifactItem>
                                     <groupId>org.jline</groupId>
                                     <artifactId>jline</artifactId>
+                                    <classifier>jdk8</classifier>
                                     <outputDirectory>target/classes/resources/system/org/jline/jline/${jline.version}</outputDirectory>
                                 </artifactItem>
                             </artifactItems>
