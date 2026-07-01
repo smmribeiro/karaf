@@ -22,7 +22,7 @@ import org.easymock.Capture;
 import org.easymock.CaptureType;
 import org.easymock.EasyMock;
 import org.junit.Test;
-import shaded.org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
