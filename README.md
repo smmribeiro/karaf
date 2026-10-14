@@ -40,7 +40,8 @@ Version | Date | Changes
 4.4.6-2026.05.27 | 5/27/2026 | Upgraded woodstox-core to 6.4.0 ([PPP-6501](https://pentaho-eng.atlassian.net/browse/PPP-6501))
 4.4.6-2026.06.30 | 6/30/2026 | Upgraded jline to 3.30.14 ([PPP-6680](https://pentaho-eng.atlassian.net/browse/PPP-6680)) and pax-url-aether to 3.0.3 ([PPP-6340](https://pentaho-eng.atlassian.net/browse/PPP-6340))
 4.4.6-2026.07.06 | 7/06/2026 | Upgraded jline to 3.30.15 (still [PPP-6680](https://pentaho-eng.atlassian.net/browse/PPP-6680))
-4.4.6-2026.10.12 | 10/12/2026 | Upgraded sshd to 2.20.0 ([PPP-7074](https://pentaho-eng.atlassian.net/browse/PPP-7074))
+4.4.6-2026.10.12 | 10/12/2026 | Upgraded sshd to 2.20.0 ([PPP-7074](https://pentaho-eng.atlassian.net/browse/PPP-7074))
+
 
 
 ## Vulnerabilities addressed by Pentaho after the fork:
@@ -86,13 +87,14 @@ org.hitachivantara.karaf.kar:org.hitachivantara.karaf.kar.core |
 org.hitachivantara.karaf.bundle:org.hitachivantara.karaf.bundle.core |
 org.hitachivantara.karaf.jaas:org.hitachivantara.karaf.jaas.modules |
 org.hitachivantara.karaf.tooling:karaf-maven-plugin |
+org.apache.karaf.features:base |
 org.hitachivantara.karaf.features:framework |
 org.hitachivantara.karaf.features:standard |
 org.hitachivantara.karaf.features:enterprise |
 
 ## Maven build command:
 
-mvn clean install -DskipTests -pl .,bom,features,features/extension,features/core,features/command,kar,bundle,bundle/core,config,config/core,deployer,deployer/features,deployer/kar,shell,shell/console,jaas,jaas/modules,jaas/jasypt,jaas/spring-security-crypto,jaas/blueprint,jaas/blueprint/jasypt,diagnostic,diagnostic/core,profile,tooling,tooling/karaf-maven-plugin,assemblies,assemblies/features,assemblies/features/framework,assemblies/features/static,assemblies/features/specs,assemblies/features/standard,assemblies/features/enterprise
+mvn clean install -DskipTests -pl .,bom,features,features/extension,features/core,features/command,kar,bundle,bundle/core,config,config/core,deployer,deployer/features,deployer/kar,shell,shell/console,jaas,jaas/modules,jaas/jasypt,jaas/spring-security-crypto,jaas/blueprint,jaas/blueprint/jasypt,diagnostic,diagnostic/core,profile,tooling,tooling/karaf-maven-plugin,assemblies,assemblies/features,assemblies/features/base,assemblies/features/framework,assemblies/features/static,assemblies/features/specs,assemblies/features/standard,assemblies/features/enterprise
 
 # Apache Karaf
 
