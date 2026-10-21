@@ -19,7 +19,7 @@
 	<parent>
 		<groupId>org.apache.karaf.webconsole</groupId>
 		<artifactId>webconsole</artifactId>
-		<version>4.4.6-2026.10.12</version>
+		<version>4.4.6-2026.10.21</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 

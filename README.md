@@ -41,24 +41,8 @@ Version | Date | Changes
 4.4.6-2026.06.30 | 6/30/2026 | Upgraded jline to 3.30.14 ([PPP-6680](https://pentaho-eng.atlassian.net/browse/PPP-6680)) and pax-url-aether to 3.0.3 ([PPP-6340](https://pentaho-eng.atlassian.net/browse/PPP-6340))
 4.4.6-2026.07.06 | 7/06/2026 | Upgraded jline to 3.30.15 (still [PPP-6680](https://pentaho-eng.atlassian.net/browse/PPP-6680))
 4.4.6-2026.10.12 | 10/12/2026 | Upgraded sshd to 2.20.0 ([PPP-7074](https://pentaho-eng.atlassian.net/browse/PPP-7074))
+4.4.6-2026.10.21 | 10/21/2026 | Upgraded cxf to 3.6.13 ([PPP-7511](https://pentaho-eng.atlassian.net/browse/PPP-7511))
 
-
-
-## Vulnerabilities addressed by Pentaho after the fork:
-
-Vulnerability | New version | Ticket
---- | --- | ---
-Karaf | 4.4.6 | https://pentaho-eng.atlassian.net/browse/PPP-4893
-Apache CXF | 3.6.8 | https://pentaho-eng.atlassian.net/browse/PPP-5863
-Bouncy castle | 1.84 | https://pentaho-eng.atlassian.net/browse/PPP-6390
-Camel Core OSGi | 3.22.4 | https://pentaho-eng.atlassian.net/browse/PPP-5635
-Jackson FasterXML | 2.17.2 | https://pentaho-eng.atlassian.net/browse/PPP-4893
-Jetty | 9.4.57.v20241219 | https://pentaho-eng.atlassian.net/browse/PPP-5585
-Log4j2 | 2.25.4 | https://pentaho-eng.atlassian.net/browse/PPP-6425
-Pax Logging | 2.2.12 | https://pentaho-eng.atlassian.net/browse/PPP-6425
-Pax URL | 2.6.16 | https://pentaho-eng.atlassian.net/browse/PPP-5618
-Pax Web | 8.0.32 | https://pentaho-eng.atlassian.net/browse/PPP-5709
-SnakeYAML | 2.3 | https://pentaho-eng.atlassian.net/browse/PPP-4893
 
 ## Karaf modules removed/ignored on the Pentaho fork:
 
